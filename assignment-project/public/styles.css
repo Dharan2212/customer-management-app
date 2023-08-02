@@ -1,0 +1,128 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Login Screen */
+
+#loginForm {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#loginForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Customer List Screen */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+}
+
+/* Create & Update Customer Screen */
+
+#customerForm {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#customerForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#customerForm input[type="text"],
+#customerForm input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#customerForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#customerForm button[type="button"] {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+/* Delete Customer Screen */
+
+#deleteForm {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#deleteForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#deleteForm input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#deleteForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#deleteForm button[type="button"] {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
